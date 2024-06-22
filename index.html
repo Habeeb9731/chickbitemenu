@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrollable Images</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow-y: auto; /* Enable vertical scrolling */
+      background-color: #f0f0f0; /* Optional: Background color */
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 800px; /* Optional: Set max-width for the container */
+      margin: 0 auto;
+    }
+    .container img {
+      width: 100%;
+      max-width: 100%;
+      margin-bottom: 20px; /* Optional: Space between images */
+      border-radius: 8px; /* Optional: Rounded corners for images */
+      box-shadow: 0 2px 8px rgba(63, 69, 81, 0.16); /* Optional: Shadow for images */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="1.png" alt="Page 1">
+    <img src="2.png" alt="Page 2">
+    <img src="3.png" alt="Page 3">
+    <img src="4.png" alt="Page 4">
+    <img src="5.png" alt="Page 5">
+    <img src="6.png" alt="Page 6">
+    <img src="7.png" alt="Page 7">
+  </div>
+</body>
+</html>
